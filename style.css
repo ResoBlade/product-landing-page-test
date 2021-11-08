@@ -1,0 +1,310 @@
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    background-color: #eee;
+    padding-top: 60px;
+    
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+#nav-bar {
+    background-color: #eee;
+}
+
+#centro {
+    display: none;
+    
+}
+
+@media (max-width: 560px) {
+    #centro {
+        display: flex;
+        margin: auto;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    #main_nav {
+       
+        text-align: center;
+        
+    }
+}
+
+#design {
+   margin-top: 30px;
+}
+
+#design .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: rgb(160, 36, 150);
+}
+
+#design .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 80vw;
+    padding: 5px;
+    
+    
+  }
+
+#header-img {
+    max-width: 80px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+  }
+
+  #hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  #hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #78c3e6;
+    line-height: 0;
+  }
+
+#inaction {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    
+}
+
+.btn {
+   
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+.c-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+
+
+
+.videoframe {
+    width: 560px;
+    height: 315px;
+    
+}
+
+@media (max-width: 800px) {
+    .videoframe {
+      max-width: 100%;
+    }
+}
+
+
+.the100 {
+    width: 100%;
+    display: block;
+}
+
+.theright {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.funpic {
+    clip-path: circle(50% at 88% 10%);
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: rgb(93, 168, 173);
+  }
+
+
+.EqHeightDiv{
+float:left;
+border:solid 1px #ccc;
+background:#0CF;
+margin:10px;
+max-width:300px; 
+padding:7px 5px 0px 5px;
+}
+
+.containerdiv {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    
+  }
+
+
+
+  .examples > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 5px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+ .examples > h2 {
+      margin-top: 15px;
+      color: rgb(75, 51, 180);
+  }
+
+  .examples > ol {
+      margin: 15px 0;
+  }
+
+  .examples > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+        
+  }
+
+  @media (max-width: 768px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .examples {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+ 
+
+.containerdivheight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    border: 2px solid red;
+    padding: 5px;
+
+}
+
+.testdiv {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: calc(100% / 3);
+    text-align: center;
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+ 
+
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > ul > li > a {
+    text-decoration: none;
+    color: black;
+  }
+
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
